@@ -1,0 +1,11 @@
+.ProductoEditor img {
+    max-width: min(100%, 300px);
+    object-fit: contain;
+}
+
+@media (min-width: 768px) {
+    .ProductoEditor img {
+        max-height: 10vh;
+    }
+}
+
